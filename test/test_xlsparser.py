@@ -8,7 +8,7 @@ from mock import patch
 
 from fixtures import MOCK_ARGS, TEST_XLS
 
-from xls2ai import VariableLibrary, XLSParser
+from xls2ai import XLSParser
 
 @patch('xls2ai.VariableLibrary',autospec=True)
 @patch('xls2ai.FileWriter',autospec=True)
